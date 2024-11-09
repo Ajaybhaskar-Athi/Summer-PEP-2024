@@ -13,7 +13,7 @@
 //     if(it!=v.end()){
 //         cout <<"grater element : "<<*(it)<<endl;
 //     }
-//     else {
+//     else { 
 //         cout <<"greater doesnot exist"<<endl;
 //     }
 

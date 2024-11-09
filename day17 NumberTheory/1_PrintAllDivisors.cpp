@@ -7,9 +7,12 @@ void findDivisors(int num)
     {
         if (num % i == 0)
         {
-            cout << i << " ";
+            cout << i << " "<<endl;
             if (num / i != i)
-                cout << num / i << " ";
+                cout <<"num/i : "<< num / i << " "<<endl;
         }
     }
+}
+int main(){
+    findDivisors(6);
 }
